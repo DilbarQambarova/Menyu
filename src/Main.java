@@ -149,9 +149,6 @@ public class Main {
                         System.out.println("Bu tərəflərlə üçbucaq düzəlmir!");
                     }
                     break;
-
-                default:
-                    System.out.println("Yanlış seçim etdiniz. Yenidən cəhd edin.");
             }
         }
 

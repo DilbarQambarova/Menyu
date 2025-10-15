@@ -16,16 +16,22 @@ public class kalkulyator {
                     "3.Vurma" + "\n" + "4.Bölmə");
             String sechim = scanner.nextLine();
             scanner.nextLine();
-            if (sechim.equalsIgnoreCase("toplama")) {
-                System.out.println("Nəticə:" + (a + b));
-            } else if (sechim.equalsIgnoreCase("Çıxma")) {
+            switch (sechim) {
+                case "toplama":
+                    System.out.println("Nəticə:" + (a + b));
+
+              break;
+               case "Çıxma":
                 System.out.println("Nəticə:" + (a - b));
-            } else if (sechim.equalsIgnoreCase("Vurma")) {
-                System.out.println("Nəticə:" + (a * b));
-            } else if (sechim.equalsIgnoreCase("Bölmə")) {
+
+               break;
+                case "Vurma":
+                    System.out.println("Nəticə:" + (a * b));
+                break;
+
+            case "Bölmə":
                 System.out.println("Nəticə:" + (a / b));
-            } else {
-                System.out.println("xəta");
+            break;
             }
         }
     }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.WeakHashMap;
 
-public class dsdssd {
+public class kalkulyator {
     public static void main(String[] args) {
 
 
